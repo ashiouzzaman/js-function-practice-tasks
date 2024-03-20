@@ -3,7 +3,6 @@
 
 // Function
 function make_avg(numbs) {
-
 	const length = numbs.length;
 	let total = 0;
 	for (let num of numbs) {
@@ -15,5 +14,5 @@ function make_avg(numbs) {
 }
 
 // Call the function
-let numArray = [10, 30, 20, 40]
-console.log(make_avg(numArray))
+let numArray = [10, 30, 20, 40];
+console.log(make_avg(numArray));
